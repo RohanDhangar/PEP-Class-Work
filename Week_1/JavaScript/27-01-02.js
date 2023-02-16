@@ -16,9 +16,9 @@ class TestClass {
         this.head = head;
     }
 
-//     hasLast(){
-//         return this.head != null;
-//     }
+    hasLast(){
+        return this.head != null;
+    }
 
     getLast(){
         if (!this.hasLast()){
