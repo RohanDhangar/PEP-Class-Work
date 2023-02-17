@@ -13,7 +13,7 @@ const SignUpForm = lazy(() => import("./components/SIgnUpForm"));
 const SumNumbers = lazy(() => import("./components/SumNumbers"));
 const TaskScreen = lazy(() => import("./components/TaskScreen"));
 const Photos = lazy(() => import("./components/Photos"));
-const ReduxCounter = lazy(() => import("./components/ReduxCounter"));
+// const ReduxCounter = lazy(() => import("./components/ReduxCounter"));
 
 export const AnupamaContext = createContext({ favCharacter: "Anupama" });
 export const BreakingBadContext = createContext({
