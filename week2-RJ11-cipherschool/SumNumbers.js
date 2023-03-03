@@ -17,13 +17,13 @@ class SumNumbers extends Component {
     });
   }
 
-  componentDidUpdate() {
-    console.log("Component has updated!");
-    this.setState({
-      ...this.state,
-      sumString: `The sum is: ${this.state.sum}`,
-    });
-  }
+//   componentDidUpdate() {
+//     console.log("Component has updated!");
+//     this.setState({
+//       ...this.state,
+//       sumString: `The sum is: ${this.state.sum}`,
+//     });
+//   }
 
   setSum = (sum) => {
     if (typeof sum !== "undefined") {
